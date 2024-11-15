@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home Page</title>
+</head>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.main-container {
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+header {
+  background-color: #009688;
+  color: white;
+  padding: 50px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease-out;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 15px;
+}
+
+.navigation a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #009688;
+  background-color: #ffffff;
+  padding: 15px 25px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navigation a:hover {
+  background-color: #004d40;
+  color: white;
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #009688;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  animation: fadeIn 2s ease-out 0.5s;
+}
+
+footer p {
+  font-size: 1em;
+}
+
+/* Simple Fade-In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+</style>
+<body>
+  <div class="main-container">
+    <header class="header">
+      <h1>Altschool Africa Assignment</h1>
+      
+    </header>
+    
+    <nav class="navigation">
+      <ul>
+        <li><a href="index1.html">Assignment 1</a></li>
+        <li><a href="index2.html">Assignment 2</a></li>
+        <li><a href="index3.html">Assignment 3</a></li>
+        <li><a href="index4.html">Assignment 4</a></li>
+      </ul>
+    </nav>
+    
+    <footer class="footer">
+      <p>&copy; Your gateway to amazing pages.</p>
+    </footer>
+  </div>
+</body>
+</html>
